@@ -1,0 +1,43 @@
+# Godot generated files; keep source .uid files under version control.
+.godot/
+.mono/
+export_credentials.cfg
+
+# .NET build output and editor state.
+**/bin/
+**/obj/
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+# Exported games, captures, and logs.
+/build/
+/exports/
+/_frames/
+*.log
+*.mp4
+*.mkv
+*.webm
+*.avi
+
+# Local tools, backups, and machine-specific agent settings.
+/.local/
+/.claude/
+/.codex/
+/tools/
+*.old
+*.bak
+*.tmp
+*.dll
+*.exe
+*.pdb
+.env
+.env.*
+!.env.example
+
+# Operating system metadata.
+.DS_Store
+Thumbs.db
+Desktop.ini

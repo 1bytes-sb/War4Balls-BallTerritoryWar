@@ -1,0 +1,39 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="BallTerritoryWar"
+config/description="左侧弹珠台 + 右侧百万像素领地战"
+run/main_scene="res://scenes/Main.tscn"
+config/features=PackedStringArray("4.6", "C#", "Forward Plus")
+
+[display]
+
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+window/size/window_width_override=1600
+window/size/window_height_override=900
+window/stretch/mode="canvas_items"
+
+[dotnet]
+
+project/assembly_name="BallTerritoryWar"
+
+[physics]
+
+common/physics_ticks_per_second=120
+2d/default_gravity=0.0
+
+[rendering]
+
+anti_aliasing/quality/msaa_2d=2
+
+environment/defaults/default_clear_color=Color(0.008, 0.027, 0.075, 1)

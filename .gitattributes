@@ -1,0 +1,16 @@
+* text=auto eol=lf
+*.cs text eol=lf
+*.csproj text eol=lf
+*.sln text eol=crlf
+*.gdshader text eol=lf
+*.godot text eol=lf
+*.tscn text eol=lf
+*.uid text eol=lf
+*.cfg text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+# A trailing tab represents the optional empty explanation column.
+data/questions.txt whitespace=-blank-at-eol
+*.bat text eol=crlf
+*.png binary
+*.jpg binary
